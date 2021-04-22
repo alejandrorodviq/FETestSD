@@ -1,0 +1,29 @@
+.quote-container{
+    position: relative;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin: 0 36px;
+    padding-top: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image:  url(/images/right-quotes-sign.png), url(/images/left-quotes-sign.png);
+    background-position: right 20px bottom 20px, left 20px top 20px;
+    background-repeat: no-repeat, no-repeat;
+    background-color: $backgroud-gray;
+
+    .quote-description{
+        color: $base-blue;
+        font-size: 18px;
+        padding: 64px 48px;
+    }
+}
+
+@media only screen and (min-width: 48em){
+    .quote-container{
+        margin: 0 80px;
+        margin-left: 158px;
+        .quote-description{
+            font-size: 24px;
+            padding: 96px 64px;
+        }
+    }
+}

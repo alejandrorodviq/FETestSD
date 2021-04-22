@@ -1,17 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SD Frontent Test</title>
-    <link rel="icon" href="images/favicon-32x32.png" type="image/png"/>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/css/normalize.css" />
     <link rel="stylesheet" href="dist/css/styles.css" />
 </head>
+
 <body>
-    <h1 class="heading"><span>SD</span> Frontent Test</h1>
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <div class="inactive" id="mobile-menu">
+                <div class="mobile-menu-container">
+                    <ul class="mobile-menu">
+                        <li class="mobile-menu-item"><a href="#">Home</a></li>
+                        <li class="mobile-menu-item"><a href="#">More Properties</a></li>
+                        <li class="mobile-menu-item"><a href="#">rent</a></li>
+                        <li class="mobile-menu-item"><a href="#">Find Agents</a></li>
+                        <li class="mobile-menu-item"><button type="button" class="featured-btn">Contact Us</button></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">More Properties</a></li>
+                <li class="menu-item"><a href="#">rent</a></li>
+                <li class="menu-item"><a href="#">Find Agents</a></li>
+                <li class="menu-item"><button type="button" class="featured-btn">Contact Us</button></li>
+            </ul>
+            <img src="images/menu-btn.png" class="menu-btn" id="menu-btn" onclick="openNav()">
+
+        </div>
+
+
+        <main class="content">
+            <div class="banner">
+                <h1 class="banner-heading">
+                    Etiam luctus nisl tristique euismod tempor.
+                </h1>
+                <p class="banner-description">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+                </p>
+                <button type="button" class="featured-btn banner-btn">Ask for help</button>
+            </div>
+
+            <section class="heading">
+                <div class="heading-title-container">
+                    <h1 class="heading-title">Etiam consectetur commodo nisl sed feugiat.</h1>
+                </div>
+
+                <div class="quote-container">
+                    <p class="quote-description">Duis vel faucibus est. Maecenas laoreet rhoncus tortor, non blandit
+                        lectus. Quisque sit amet turpis ultrices, accumsan nisi ut, vestibulum orci.</p>
+                </div>
+
+                <div class="heading-text-container">
+                    <p class="heading-text">
+                        Nulla ante urna, pellentesque vitae vestibulum vitae, fringilla non sem. Integer ac nunc vel
+                        massa hendrerit luctus. In hac habitasse platea dictumst. In aliquam mi at magna mollis
+                        faucibus. Ut finibus nisl maximus quam venenatis, sed dignissim elit lobortis. Maecenas tempus
+                        tincidunt nibh ac tincidunt.
+                    </p>
+                </div>
+                <div class="heading-text-container">
+                    <p class="heading-text">
+                        Cras maximus justo id nibh fringilla, et luctus ligula fringilla. Donec dictum venenatis tempor.
+                        Phasellus luctus metus mi. Morbi molestie, lacus eu commodo rutrum, risus neque ultrices augue,
+                        sit amet gravida justo mauris eget elit.
+                    </p>
+                </div>
+
+
+
+            </section>
+
+
+            <section class="cards">
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-heading-container">
+                        <h1 class="card-heading">
+                            Etiam consectetur.
+                        </h1>
+                    </div>
+                    <div class="card-description-container">
+                        <h1 class="card-description">
+                            Aenean ornare sem et tortor faucibus, ut feugiat dolor dictum. Nam ultrices auctor
+                            lectus,
+                            sit amet interdum nibh egestas id. Donec et neque a elit accumsan dignissim nec eu
+                            metus.
+                        </h1>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-nav">
+                <ul class="footer-nav-links">
+                    <li class="footer-nav-links-item"><a href="#">New Properties</a></li>
+                    <li class="footer-nav-links-item"><a href="#">Rent</a></li>
+                    <li class="footer-nav-links-item"><a href="#">Find Agents</a></li>
+                </ul>
+            </div>
+            <p class="footer-copyright">
+                © SphereDevs. All rights reserved. 2021
+            </p>
+            <div class="footer-social">
+                <a class="media-link" href="#">
+                    <img class="media-link-icon" src="images/Instagram_white.png" alt="instagram">
+                </a>
+                <a class="media-link" href="#">
+                    <img class="media-link-icon" src="images/Facebook_white.png" alt="facebook">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
 
     <script src="dist/js/scripts.js"></script>
 </body>
+
 </html>

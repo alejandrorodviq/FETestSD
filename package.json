@@ -4,7 +4,6 @@
     "main": "index.html",
     "author": "SphereDevs",
     "license": "MIT",
-    "dependencies": {},
     "devDependencies": {
         "browser-sync": "^2.26.14",
         "del": "^6.0.0",

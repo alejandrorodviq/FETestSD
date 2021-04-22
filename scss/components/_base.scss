@@ -7,8 +7,30 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+}
+
+.content{
+    padding-top: 48px;
+}
+
+main {
+    display: block;
+}
+
+section {
+    display: block;
+}
+.inactive{
+    display: none;
 }
